@@ -1,32 +1,33 @@
+#include <stdio.h>
+
 /**
- * @file: 00_helo.c
- * @brief: Introductory C program for teaching basic output.
+ * @file 00_hello.c
+ * @brief Introductory C program for demonstrating basic output.
  *
- * @description:
- *  This program prints "Hello, World!" to the console.
+ * @description
+ * Prints "Hello, World!" to the console.
  *
- * Steps:
+ * Steps
  *  1) Compile:
- *    gcc 00_hello.c -o hello
+ *     gcc 00_hello.c -o hello
  *
  *  2) Run:
- *    ./hello   -> Linux & macOS
- *    hello.exe -> Windows
+ *     ./hello     (Linux / macOS)
+ *     hello.exe   (Windows)
  *
- * @notes:
- *  - To change the output binary name:
- *    gcc 00_hello.c -o hello.exe
+ * @notes
+ * - To change the output binary name:
+ *   gcc 00_hello.c -o hello.exe
  *
- *  - #include <stdio.h>
- *    Gives us access to standard input & output functions like `printf`.
+ * - #include <stdio.h>
+ *   Provides access to standard input and output functions such as printf.
  *
- *  - `return 0;`
- *    Notifies that the program ran successfully to the operating system.
+ * - return 0;
+ *   Indicates successful program execution to the operating system.
  *
- *  - "\n"
- *    Inserts a newline so the next output appears on a new line.
+ * - "\n"
+ *   Inserts a newline so the next output appears on a new line.
  */
-#include <stdio.h>
 
 int main(void) {
   printf("Hello, World!\n");
