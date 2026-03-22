@@ -7,13 +7,13 @@
  * @description
  * Prompts the user for their name and prints a greeting.
  *
- * Steps
+ * @steps
  *  1) Compile:
  *     gcc 01_hello_input_scanf.c -o greet
  *
  *  2) Run:
- *     ./greet     (Linux / macOS)
- *     greet.exe   (Windows)
+ *     ./greet   -> Linux & macOS
+ *     greet.exe -> Windows
  *
  * @notes
  * - char name[50];

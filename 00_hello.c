@@ -12,8 +12,8 @@
  *     gcc 00_hello.c -o hello
  *
  *  2) Run:
- *     ./hello     (Linux / macOS)
- *     hello.exe   (Windows)
+ *     ./hello   -> Linux & macOS
+ *     hello.exe -> Windows
  *
  * @notes
  * - To change the output binary name:
@@ -29,6 +29,7 @@
  *   Inserts a newline so the next output appears on a new line.
  */
 
+// Entry point of the program. Execution starts here.
 int main(void) {
   printf("Hello, World!\n");
   return 0;

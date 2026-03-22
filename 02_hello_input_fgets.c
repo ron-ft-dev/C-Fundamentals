@@ -11,8 +11,8 @@
  *    gcc 02_hello_input_fgets.c -o greet
  *
  *  2) Run:
- *    ./greet     (Linux / macOS)
- *    greet.exe   (Windows)
+ *    ./greet   -> Linux & macOS
+ *    greet.exe -> Windows
  *
  * @notes
  * - fgets(name, sizeof(name), stdin);
